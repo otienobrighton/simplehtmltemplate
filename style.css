@@ -1,0 +1,231 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+  padding: 0;
+  margin: 0;
+  box-shadow: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+
+}
+/*the navbar section starts here*/
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #342628;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+}
+.logo{
+  margin-left: 1.5em;
+  color: #f7f4ef;
+  font-weight: 600;
+  font-size: 20px;
+}
+.navbar ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.navbar ul li{
+  margin-right: 1.4em;
+}
+.navbar ul li a{
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 17px;
+  color: #f7f4ef;
+  transition: 0.6s;
+}
+.navbar ul li a:hover{
+  color: #788402;
+  text-decoration: underline solid #788402;
+  font-size: 18px;
+}
+/*hero section starts here*/
+.hero{
+  width: 100vw;
+  height: 70vh;
+  padding-top: 6rem;
+  margin-right: 0;
+  background:linear-gradient(#ebe3d900, #342628), url(./images/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  border-bottom-right-radius: 50px;
+}
+.hero .hero-container{
+  width: 90%;
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero .hero-container .info{
+    color: #f7f4ef;
+    width: 90%;
+    height: 100%;
+    max-width: 1200px;
+    margin-top: 30%;
+    display: block;
+    text-align: center;
+    
+}
+.hero .hero-container .info h4{
+  font-weight: 600;
+  width: 90%;
+  margin-bottom: 1.4rem;
+
+}
+.hero .hero-container .info h1{
+  font-weight: 900;
+  line-height: 40px; 
+  margin-bottom: 2.5rem;
+  font-size: 5rem;
+
+}
+.hero .hero-container .info h6{
+ margin-bottom: 2.5rem;
+
+}
+.hero .hero-container .info button{
+  color: #f7f4ef;
+  background-color: #feaa00;
+  height: 50px;
+  width: 10vw;
+  border: none;
+  border-radius: 20px;
+}
+/*the services card section starts here*/
+.services {
+  height: 50vh;
+  width: 100%;
+  background-color: #f7f4ef;
+  margin-top: -2px;
+  padding-left: 1.5rem;
+
+}
+.services h2{
+  color: #342628;
+  padding-top: 4rem ;
+  text-align: center;
+  margin-bottom: 1rem;
+
+
+}
+.services .ser1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.services .ser1 .homeser{
+  background-color: #342628;
+  color: #f7f4ef;
+  height: 90%;
+  width: 33%;
+  margin-right: 2em;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 2rem;
+  border: none;
+  border-radius: 20px;
+}
+/*the first slider section starts here*/
+.slide1{
+  display: flex;
+  margin-top: 3rem;
+  width: 100%;
+  height: 50vh;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.slidetext{
+  height: 40vh;
+  width: 49%;
+  margin-left: 1.5rem;
+
+}
+.slidetext h2{
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #342628;
+}
+.slidetext p{
+  max-width: 80%;
+  color: #342628;
+  margin-bottom: 2rem;
+}
+button{
+   color: #342628;
+  background-color: #f7f4ef;
+  height: 50px;
+  width: 10vw;
+  border: 4px solid #342628;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.slide-image{
+  height: 40vh;
+  width: 49%;
+}
+.slide-image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 10px;
+}
+/*slider two section starts here*/
+.slide2{
+  display: flex;
+  margin-top: 3rem;
+  width: 100%;
+  height: 50vh;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  margin-left: 1.5rem;
+}
+/*the footer section starts here*/
+footer{
+  background-color: #342628;
+  color: #f7f4ef;
+  border: none;
+  border-top-left-radius: 10px;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 3rem;
+}
+ul{
+  list-style: none;
+}
+h4{
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.copyrig{
+  color: #342628;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+}
